@@ -1,4 +1,4 @@
-package br.com.zup.desafiotransacao.kafka;
+package br.com.zup.desafiotransacao.config.kafka;
 
 import br.com.zup.desafiotransacao.model.Transacao;
 import org.apache.kafka.clients.consumer.ConsumerConfig;

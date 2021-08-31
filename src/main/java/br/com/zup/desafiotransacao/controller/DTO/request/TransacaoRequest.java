@@ -1,8 +1,14 @@
 package br.com.zup.desafiotransacao.controller.DTO.request;
 
+import javax.validation.constraints.Email;
+import javax.validation.constraints.NotBlank;
+
 public class TransacaoRequest {
 
+    @NotBlank
     private String id;
+
+    @Email @NotBlank
     private String email;
 
     public TransacaoRequest(String id, String email) {
